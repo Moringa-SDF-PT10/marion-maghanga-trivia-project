@@ -1,12 +1,14 @@
-git# 🧠🤔 Open trivia project!
+# 🧠🤔 Open trivia project!
 
-## Description 
-This is an interactive quiz game to test one's knowledge on computers with multiple choice questions. The questions are fetched from the public online API [Open trivia DB](https://opentdb.com/api_config.php). The technologies used include ***html***, ***css*** and ***javascript***.
+## Description
 
-## Live Demo 
+This is an interactive quiz game to test one's knowledge on computers with multiple choice questions. The questions are fetched from the public online API [Open trivia DB](https://opentdb.com/api_config.php). The technologies used include **_html_**, **_css_** and **_javascript_**.
+
+## Live Demo
+
 [Play trivia!](https://moringa-sdf-pt10.github.io/marion-maghanga-trivia-project/)
 
-## How to use the project 
+## How to use the project
 
 The user clicks the start trivia button to begin answering the questions.
 
@@ -23,29 +25,33 @@ After submission the user will see their score as well as the option to restart 
 ![image3](./assets/image3.png)
 
 ## Contribution
+
 To contribute to this project follow the steps below:
 
 1.  Fork the repository.
 
-2. Clone the repository to your local.
-    ``` shell
+2.  Clone the repository to your local.
+
+    ```shell
     git clone git@github.com:Moringa-SDF-PT10/marion-maghanga-trivia-project.git
     ```
 
-3.  Navigate to the project directory and open the project in your preferred text editor using:  
+3.  Navigate to the project directory and open the project in your preferred text editor using:
+
     ```
     code .
     ```
 
-4. Create your branch.
+4.  Create your branch.
     ```shell
     git checkout -b <branch-name>
     ```
-5. Add the changes, commit them and push your branch name.
+5.  Add the changes, commit them and push your branch name.
 
-6. Create a pull request.
+6.  Create a pull request.
 
 ## 👤 Author
+
 [Open Github](https://github.com/Marion-Saru)
 
 ### Happy guessing 😊

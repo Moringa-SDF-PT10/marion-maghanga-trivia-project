@@ -1,5 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Open Trivia</title>
+        <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./assets/quiz.png" type="image/x-icon">
+    </head>
+    <body>
+        <img src="./assets/background.jpeg" alt="trivia photo">        
+        <div class="startPage">
+            <h1>Welcome to my open trivia!</h1>
+            <h3>Science : Computers</h3>
+            <h3>Difficulty: Medium</h3>
+            <button id="startBtn">Start Trivia</button>
+        </div>
+
+        <div class="questionsPage">
+            <div class="questionHeader">
+                <div>Question <span id="questionCount">1</span>/10</div>
+                <div>
+                    <i class="fa-solid fa-hourglass-half"></i>
+                    <span id="questionTimer">10</span>
+                  </div>                 
+            </div>            
+            <div class="questionBody">
+                <h4 id="question"></h4>
+                <ul id="questionOptions"></ul>
+            </div>
+            <div class="questionFooter">
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+
+        <div class="endPage">
+            <h3>You've completed the Trivia!</h3>
+            <h3> Your score is <span class = "finalScore"> 0 </span> out of 10 </h3>                          
+            <button id = "restartBtn"> Restart trivia </button>
+            </div>            
+        </div>
+
+        <script src = index.js></script>
+
+    </body>
 </html>

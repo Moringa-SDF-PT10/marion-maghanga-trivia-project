@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(167, 220, 224);
+    user-select: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.startPage,
+.questionsPage,
+.endPage {
+  box-sizing: border-box;
+  width: 500px;          
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#startBtn, #restartBtn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.questionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;  
+    margin-bottom: 10px;
+  }
+  
+.questionHeader div {
+    font-size: 16px;
+}
+  
+.questionHeader i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+  
+
+.questionBody {   
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;        
+    
+}
+
+.questionBody h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+#questionOptions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#questionOptions li {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+#questionOptions li:hover {
+    background-color: #e0e0e0;
+    border-color: #888;
+}  
+  
+#questionOptions li.correct {
+    border-color: green;
+    background-color: #d4edda;
+    color: green;
+}
+
+#questionOptions li.Incorrect {
+    border-color: red;
+    background-color: #f8d7da;
+    color: red;
+}
+  
+#questionOptions li.disable {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.questionFooter {
+    text-align: center;
+    margin-top: 15px;
+}
+  
+#nextBtn {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+  
